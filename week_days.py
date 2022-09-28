@@ -9,7 +9,7 @@ def day_of_week():
         print(name_of_day)
     # 1.2 TODO: Write another for loop that does the same thing, but this time use the range function
     for name_of_day in range(len(days)):
-        print(name_of_day)
+        print(days[name_of_day])
 
 
 def favorite_activities():
